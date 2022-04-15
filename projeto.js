@@ -51,29 +51,20 @@ console.log(`O total de respostas SIM foi:  ${soma_respostas}.`);
 console.log(`O total de respostas NAO foi:  ${5 - soma_respostas }.`)
 console.log()
 
-while (soma_respostas <= 0) {
+if(soma_respostas <= 0) {
     console.log("Estamos *extremamente* desapontados com os maus tratos que você tem com seu próprio filho , você não nos representa e Falhou TERRIVELMENTE nas tarefas!")
-    break
-}
-
-while (soma_respostas > 0 && soma_respostas<= 2 ) {
+    
+}else if(soma_respostas > 0 && soma_respostas<= 2 ) {
     console.log("Você está mesmo se esforçando para cuidar do seu filho ? Você precisa se empenhar mais nas tarefas!")
-    break
-}
-
-while (soma_respostas == 3) {
+    
+}else if(soma_respostas == 3) {
     console.log("Sabemos que a paternidade/maternidade não é nada simples, porém sabemos que você tem mais para doar . Se esforce ao máximo !")
-    break
-}
-
-while (soma_respostas == 4) {
+    
+}else if(soma_respostas == 4) {
     console.log("Parabéns, você é um excelente pai/mãe e é muito bom ver como você se empenhou, mas podemos fazer um trabalho melhor ainda , né ?!")
-    break
-}
-
-
-while (soma_respostas == 5) {
+    
+}else if(soma_respostas == 5) {
     console.log("Parabéns, você realizou todas as tarefas de forma maravilhosa , o Mundo se orgulha com seus cuidados com a tua criança . Elas são nosso futuro e está em ótimas mãos !")
-    break
+    
 }
 console.log()
